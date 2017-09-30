@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# Project Name
+> Short blurb about what your project does.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -11,16 +11,16 @@ One to two paragraph statement about your product and what it does.
 
 ## Installation
 
-OS X & Linux:
+Npm:
 
 ```sh
 npm install my-module --save
 ```
 
-Windows:
+Yarn:
 
 ```sh
-edit autoexec.bat
+yarn add my-module
 ```
 
 ## Usage example
@@ -34,8 +34,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
-make install
-npm test
+yarn test
 ```
 
 ## Release History
